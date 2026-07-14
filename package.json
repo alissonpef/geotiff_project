@@ -26,14 +26,14 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
-  "name": "project-test",
+  "name": "geotiff_project",
   "version": "1.0.0",
   "description": "TypeScript REST API to serve GeoTIFF tiles with multi-file support, simple cache and VARI visualization",
   "main": "src/index.ts",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alissonpef/Geotiff-Project.git"
+    "url": "git+https://github.com/alissonpef/geotiff_project.git"
   },
   "engines": {
     "node": ">=20.0.0"

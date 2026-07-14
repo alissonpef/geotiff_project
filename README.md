@@ -12,7 +12,7 @@
 <!-- LOGOTIPO DO PROJETO -->
 <br />
 <div align="center">
-  <a href="https://github.com/alissonpef/Geotiff-Project">
+  <a href="https://github.com/alissonpef/geotiff_project">
     <img src="assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -21,12 +21,12 @@
   <p align="center">
     Servidor REST performático em TypeScript/Express para servir tiles XYZ de arquivos GeoTIFF multiespectrais com cálculo dinâmico de índices espectrais e colormaps científicos.
     <br />
-    <a href="https://github.com/alissonpef/Geotiff-Project"><strong>Explore a documentação »</strong></a>
+    <a href="https://github.com/alissonpef/geotiff_project"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/alissonpef/Geotiff-Project/issues/new?labels=bug&template=bug-report.md">Reportar Bug</a>
+    <a href="https://github.com/alissonpef/geotiff_project/issues/new?labels=bug&template=bug-report.md">Reportar Bug</a>
     &middot;
-    <a href="https://github.com/alissonpef/Geotiff-Project/issues/new?labels=enhancement&template=feature-request.md">Solicitar Recurso</a>
+    <a href="https://github.com/alissonpef/geotiff_project/issues/new?labels=enhancement&template=feature-request.md">Solicitar Recurso</a>
   </p>
 </div>
 
@@ -96,7 +96,7 @@ Certifique-se de ter o Node.js instalado (versão >= 20.0.0).
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/alissonpef/Geotiff-Project.git
+   git clone https://github.com/alissonpef/geotiff_project.git
    ```
 2. Instale os pacotes NPM:
    ```sh
@@ -110,7 +110,7 @@ Certifique-se de ter o Node.js instalado (versão >= 20.0.0).
    ```
 4. Altere a URL do remote git para evitar pushs acidentais para o projeto base:
    ```sh
-   git remote set-url origin alissonpef/Geotiff-Project
+   git remote set-url origin alissonpef/geotiff_project
    git remote -v
    ```
 
@@ -201,8 +201,8 @@ Não se esqueça de dar uma estrela ao projeto! Obrigado novamente!
 
 ### Principais contribuidores:
 
-<a href="https://github.com/alissonpef/Geotiff-Project/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=alissonpef/Geotiff-Project" alt="imagem contrib.rocks" />
+<a href="https://github.com/alissonpef/geotiff_project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=alissonpef/geotiff_project" alt="imagem contrib.rocks" />
 </a>
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
@@ -221,7 +221,7 @@ Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 
 Alisson Pereira Ferreira - alissonpef@gmail.com - [LinkedIn](https://www.linkedin.com/in/alisson-pereira-ferreira/)
 
-Link do Projeto: [https://github.com/alissonpef/Geotiff-Project](https://github.com/alissonpef/Geotiff-Project)
+Link do Projeto: [https://github.com/alissonpef/geotiff_project](https://github.com/alissonpef/geotiff_project)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
@@ -231,16 +231,16 @@ Made with ❤️ by **Alisson Pereira**.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/alissonpef/Geotiff-Project.svg?style=for-the-badge
-[contributors-url]: https://github.com/alissonpef/Geotiff-Project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alissonpef/Geotiff-Project.svg?style=for-the-badge
-[forks-url]: https://github.com/alissonpef/Geotiff-Project/network/members
-[stars-shield]: https://img.shields.io/github/stars/alissonpef/Geotiff-Project.svg?style=for-the-badge
-[stars-url]: https://github.com/alissonpef/Geotiff-Project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alissonpef/Geotiff-Project.svg?style=for-the-badge
-[issues-url]: https://github.com/alissonpef/Geotiff-Project/issues
-[license-shield]: https://img.shields.io/github/license/alissonpef/Geotiff-Project.svg?style=for-the-badge
-[license-url]: https://github.com/alissonpef/Geotiff-Project/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/alissonpef/geotiff_project.svg?style=for-the-badge
+[contributors-url]: https://github.com/alissonpef/geotiff_project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alissonpef/geotiff_project.svg?style=for-the-badge
+[forks-url]: https://github.com/alissonpef/geotiff_project/network/members
+[stars-shield]: https://img.shields.io/github/stars/alissonpef/geotiff_project.svg?style=for-the-badge
+[stars-url]: https://github.com/alissonpef/geotiff_project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alissonpef/geotiff_project.svg?style=for-the-badge
+[issues-url]: https://github.com/alissonpef/geotiff_project/issues
+[license-shield]: https://img.shields.io/github/license/alissonpef/geotiff_project.svg?style=for-the-badge
+[license-url]: https://github.com/alissonpef/geotiff_project/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alisson-pereira-ferreira/
 [Node.js-shield]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white

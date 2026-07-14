@@ -13,8 +13,13 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^24.7.2",
     "@types/supertest": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.64.0",
+    "@typescript-eslint/parser": "^8.64.0",
     "dotenv": "^17.2.3",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
     "jest": "^30.2.0",
+    "prettier": "^3.9.5",
     "supertest": "^7.1.4",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
@@ -26,12 +31,21 @@
   "description": "TypeScript REST API to serve GeoTIFF tiles with multi-file support, simple cache and VARI visualization",
   "main": "src/index.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissonpef/Geotiff-Project.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
     "test": "jest",
     "test-tile": "node ./scripts/test-tile.js",
-    "test-spectral": "node ./scripts/test-spectral-indices.js"
+    "test-spectral": "node ./scripts/test-spectral-indices.js",
+    "format": "prettier --write .",
+    "lint": "eslint ."
   },
   "keywords": [
     "geotiff",

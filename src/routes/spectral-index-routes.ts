@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import spectralIndexController from '../controllers/SpectralIndexController.js';
+import spectralIndexController from '../controllers/spectral-index-controller.js';
 
 const router = Router();
 
@@ -8,10 +8,12 @@ router.get('/colormaps', (req, res) => spectralIndexController.listColormaps(req
 router.get('/info/:indexName', (req, res) => spectralIndexController.getIndexInfo(req, res));
 
 router.get('/:z/:x/:y', (req, res) => {
-    (req.params as any).tiffId = 'default';
-    spectralIndexController.getSpectralIndexTile(req, res);
+  (req.params as Record<string, string>).tiffId = 'default';
+  spectralIndexController.getSpectralIndexTile(req, res);
 });
 
-router.get('/:tiffId/:z/:x/:y', (req, res) => spectralIndexController.getSpectralIndexTile(req, res));
+router.get('/:tiffId/:z/:x/:y', (req, res) =>
+  spectralIndexController.getSpectralIndexTile(req, res),
+);
 
 export default router;

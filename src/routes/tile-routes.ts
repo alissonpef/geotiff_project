@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import tileController from '../controllers/TileController.js';
+import tileController from '../controllers/tile-controller.js';
 
 const router = Router();
 
 router.get('/:z/:x/:y', (req, res) => {
-    (req.params as any).tiffId = 'default';
-    tileController.getTile(req, res);
+  (req.params as Record<string, string>).tiffId = 'default';
+  tileController.getTile(req, res);
 });
 
 router.get('/:tiffId/:z/:x/:y', (req, res) => tileController.getTile(req, res));

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import geotiffController from '../controllers/GeoTiffController.js';
+import geotiffController from '../controllers/geo-tiff-controller.js';
 
 const router = Router();
 
